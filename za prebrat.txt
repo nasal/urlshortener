@@ -1,0 +1,3 @@
+Stvar ni konèana, še dodelujem sistem in vse napake in je v bistvu zelo malo kode, ampak stvar deluje.
+
+http://waka.us/~nasal/url/ (niti url ni kratek :D)

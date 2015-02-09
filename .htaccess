@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+   RewriteEngine on
+   RewriteOptions MaxRedirects=1
+   RewriteBase /url.si/
+   RewriteCond %{REQUEST_FILENAME} !-f
+   RewriteCond %{REQUEST_FILENAME} !-d
+   RewriteCond %{REQUEST_FILENAME} !-l
+   RewriteRule ^([a-zA-Z0-9_-]+)$ bounce.php?hash=$1 [L]
+</IfModule>
+
